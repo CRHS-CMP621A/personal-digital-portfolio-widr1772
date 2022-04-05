@@ -1,0 +1,69 @@
+/*Stylesheet start*/
+body {
+  font-family: sans-serif;
+  background-color: cyan;
+}
+
+.headtag {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+.head {
+  color: blue;
+  background-color: rgb(92, 158, 202);
+  margin: 5px;
+  align-content: center;
+}
+.infos {
+  display: grid;
+  grid-template-columns: 245px 245px 245px 245px;
+  grid-template-rows: 400px;
+  gap: 5px;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.inboxheader {
+  color: rgb(86, 106, 194);
+  margin: 5px;
+}
+.abt {
+  border: 2px solid blue;
+  background: lightgrey;
+}
+.computer {
+  border: 2px solid blue;
+  background: lightgrey;
+}
+.robot {
+  border: 2px solid blue;
+  background: lightgrey;
+}
+.fact {
+  border: 2px solid blue;
+  background: lightgrey;
+}
+
+div img {
+  margin: 5.5px;
+  align-self: center;
+}
+
+.Footerthing {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  border: 2px solid blue;
+  margin-top: 5px;
+  background: lightblue;
+}
+
+.huehue {
+  color: red;
+  background: green;
+}
