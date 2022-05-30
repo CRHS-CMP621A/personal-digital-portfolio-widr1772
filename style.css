@@ -1,7 +1,7 @@
 /*Stylesheet start*/
 body {
   font-family: sans-serif;
-  background-color: cyan;
+  background-color: rgb(51, 138, 133);
 }
 
 .headtag {
@@ -10,39 +10,44 @@ body {
   justify-content: center;
 }
 .head {
-  color: blue;
-  background-color: rgb(92, 158, 202);
+  color: rgb(0, 102, 255);
+  background-color: rgb(24, 204, 174);
   margin: 5px;
   align-content: center;
 }
 .infos {
   display: grid;
-  grid-template-columns: 245px 245px 245px 245px;
-  grid-template-rows: 400px;
+  grid-template-columns: 295px 295px 295px 295px;
+  grid-template-rows: 700px;
   gap: 5px;
+
   justify-items: center;
   justify-content: center;
   align-content: center;
 }
 .inboxheader {
-  color: rgb(86, 106, 194);
+  color: rgb(0, 102, 255);
   margin: 5px;
 }
 .abt {
-  border: 2px solid blue;
+  border: 2px solid rgb(0, 102, 255);
   background: lightgrey;
+  padding: 5px;
 }
 .computer {
-  border: 2px solid blue;
+  border: 2px solid rgb(0, 102, 255);
   background: lightgrey;
+  padding: 5px;
 }
 .robot {
-  border: 2px solid blue;
+  border: 2px solid rgb(0, 102, 255);
   background: lightgrey;
+  padding: 5px;
 }
 .fact {
-  border: 2px solid blue;
+  border: 2px solid rgb(0, 102, 255);
   background: lightgrey;
+  padding: 5px;
 }
 
 div img {
@@ -56,13 +61,21 @@ div img {
   align-content: center;
   justify-items: center;
   align-items: center;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
-  border: 2px solid blue;
+  padding: 4px;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 15px;
+  border: 2px solid rgb(0, 102, 255);
   margin-top: 5px;
-  background: lightblue;
+  background: rgb(126, 187, 189);
 }
 
 article div p {
   color: red;
+}
+
+a:hover {
+  color: purple;
+}
+a:active {
+  color: rgb(0, 128, 0);
 }
