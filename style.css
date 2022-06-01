@@ -1,0 +1,81 @@
+/*Stylesheet start*/
+body {
+  font-family: sans-serif;
+  background-color: rgb(51, 138, 133);
+}
+
+.headtag {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+.head {
+  color: rgb(0, 102, 255);
+  background-color: rgb(24, 204, 174);
+  margin: 5px;
+  align-content: center;
+}
+.infos {
+  display: grid;
+  grid-template-columns: 295px 295px 295px 295px;
+  grid-template-rows: 700px;
+  gap: 5px;
+
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.inboxheader {
+  color: rgb(0, 102, 255);
+  margin: 5px;
+}
+.abt {
+  border: 2px solid rgb(0, 102, 255);
+  background: lightgrey;
+  padding: 5px;
+}
+.computer {
+  border: 2px solid rgb(0, 102, 255);
+  background: lightgrey;
+  padding: 5px;
+}
+.robot {
+  border: 2px solid rgb(0, 102, 255);
+  background: lightgrey;
+  padding: 5px;
+}
+.fact {
+  border: 2px solid rgb(0, 102, 255);
+  background: lightgrey;
+  padding: 5px;
+}
+
+div img {
+  margin: 5.5px;
+  align-self: center;
+}
+
+.Footerthing {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  padding: 4px;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 15px;
+  border: 2px solid rgb(0, 102, 255);
+  margin-top: 5px;
+  background: rgb(126, 187, 189);
+}
+
+article div p {
+  color: red;
+}
+
+a:hover {
+  color: purple;
+}
+a:active {
+  color: rgb(0, 128, 0);
+}
